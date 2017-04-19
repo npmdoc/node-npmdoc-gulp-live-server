@@ -1,70 +1,73 @@
-<svg height="1070" width="720" xmlns="http://www.w3.org/2000/svg">
-<rect height="1070" fill="#555" width="720"></rect>
+<svg height="1118" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="1118" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
-<tspan x="10" y="26">└─┬ gulp-live-server@0.0.30 </tspan>
-<tspan x="10" y="42">  ├─┬ chalk@1.1.3 </tspan>
-<tspan x="10" y="58">  │ ├── ansi-styles@2.2.1 </tspan>
-<tspan x="10" y="74">  │ ├── escape-string-regexp@1.0.5 </tspan>
-<tspan x="10" y="90">  │ ├─┬ has-ansi@2.0.0 </tspan>
-<tspan x="10" y="106">  │ │ └── ansi-regex@2.1.1 </tspan>
-<tspan x="10" y="122">  │ ├── strip-ansi@3.0.1 </tspan>
-<tspan x="10" y="138">  │ └── supports-color@2.0.0 </tspan>
-<tspan x="10" y="154">  ├─┬ connect@3.6.0 </tspan>
-<tspan x="10" y="170">  │ ├── debug@2.6.1 </tspan>
-<tspan x="10" y="186">  │ ├─┬ finalhandler@1.0.0 </tspan>
-<tspan x="10" y="202">  │ │ ├── debug@2.6.1 </tspan>
-<tspan x="10" y="218">  │ │ ├─┬ on-finished@2.3.0 </tspan>
-<tspan x="10" y="234">  │ │ │ └── ee-first@1.1.1 </tspan>
-<tspan x="10" y="250">  │ │ ├── statuses@1.3.1 </tspan>
-<tspan x="10" y="266">  │ │ └── unpipe@1.0.0 </tspan>
-<tspan x="10" y="282">  │ ├── parseurl@1.3.1 </tspan>
-<tspan x="10" y="298">  │ └── utils-merge@1.0.0 </tspan>
-<tspan x="10" y="314">  ├── connect-livereload@0.5.4 </tspan>
-<tspan x="10" y="330">  ├─┬ debug@2.6.3 </tspan>
-<tspan x="10" y="346">  │ └── ms@0.7.2 </tspan>
-<tspan x="10" y="362">  ├── deepmerge@0.2.10 </tspan>
-<tspan x="10" y="378">  ├─┬ event-stream@3.2.2 </tspan>
-<tspan x="10" y="394">  │ ├── duplexer@0.1.1 </tspan>
-<tspan x="10" y="410">  │ ├── from@0.1.7 </tspan>
-<tspan x="10" y="426">  │ ├── map-stream@0.1.0 </tspan>
-<tspan x="10" y="442">  │ ├── pause-stream@0.0.11 </tspan>
-<tspan x="10" y="458">  │ ├── split@0.3.3 </tspan>
-<tspan x="10" y="474">  │ ├── stream-combiner@0.0.4 </tspan>
-<tspan x="10" y="490">  │ └── through@2.3.8 </tspan>
-<tspan x="10" y="506">  ├── q@1.5.0 </tspan>
-<tspan x="10" y="522">  ├─┬ serve-static@1.12.1 </tspan>
-<tspan x="10" y="538">  │ ├── encodeurl@1.0.1 </tspan>
-<tspan x="10" y="554">  │ ├── escape-html@1.0.3 </tspan>
-<tspan x="10" y="570">  │ └─┬ send@0.15.1 </tspan>
-<tspan x="10" y="586">  │   ├── debug@2.6.1 </tspan>
-<tspan x="10" y="602">  │   ├── depd@1.1.0 </tspan>
-<tspan x="10" y="618">  │   ├── destroy@1.0.4 </tspan>
-<tspan x="10" y="634">  │   ├── etag@1.8.0 </tspan>
-<tspan x="10" y="650">  │   ├── fresh@0.5.0 </tspan>
-<tspan x="10" y="666">  │   ├─┬ http-errors@1.6.1 </tspan>
-<tspan x="10" y="682">  │   │ ├── inherits@2.0.3 </tspan>
-<tspan x="10" y="698">  │   │ └── setprototypeof@1.0.3 </tspan>
-<tspan x="10" y="714">  │   ├── mime@1.3.4 </tspan>
-<tspan x="10" y="730">  │   └── range-parser@1.2.0 </tspan>
-<tspan x="10" y="746">  └─┬ tiny-lr@0.0.9 </tspan>
-<tspan x="10" y="762">    ├─┬ body-parser@1.17.1 </tspan>
-<tspan x="10" y="778">    │ ├── bytes@2.4.0 </tspan>
-<tspan x="10" y="794">    │ ├── content-type@1.0.2 </tspan>
-<tspan x="10" y="810">    │ ├── debug@2.6.1 </tspan>
-<tspan x="10" y="826">    │ ├── iconv-lite@0.4.15 </tspan>
-<tspan x="10" y="842">    │ ├── qs@6.4.0 </tspan>
-<tspan x="10" y="858">    │ ├── raw-body@2.2.0 </tspan>
-<tspan x="10" y="874">    │ └─┬ type-is@1.6.15 </tspan>
-<tspan x="10" y="890">    │   ├── media-typer@0.3.0 </tspan>
-<tspan x="10" y="906">    │   └─┬ mime-types@2.1.15 </tspan>
-<tspan x="10" y="922">    │     └── mime-db@1.27.0 </tspan>
-<tspan x="10" y="938">    ├── debug@0.8.1 </tspan>
-<tspan x="10" y="954">    ├─┬ faye-websocket@0.7.3 </tspan>
-<tspan x="10" y="970">    │ └─┬ websocket-driver@0.6.5 </tspan>
-<tspan x="10" y="986">    │   └── websocket-extensions@0.1.1 </tspan>
-<tspan x="10" y="1002">    ├─┬ noptify@0.0.3 </tspan>
-<tspan x="10" y="1018">    │ └─┬ nopt@2.0.0 </tspan>
-<tspan x="10" y="1034">    │   └── abbrev@1.1.0 </tspan>
-<tspan x="10" y="1050">    └── qs@0.6.6</tspan>
+<tspan x="10" y="26">4 megabytes installed</tspan>
+<tspan x="10" y="42"></tspan>
+<tspan x="10" y="58">node_modules</tspan>
+<tspan x="10" y="74">└─┬ gulp-live-server@0.0.30 </tspan>
+<tspan x="10" y="90">  ├─┬ chalk@1.1.3 </tspan>
+<tspan x="10" y="106">  │ ├── ansi-styles@2.2.1 </tspan>
+<tspan x="10" y="122">  │ ├── escape-string-regexp@1.0.5 </tspan>
+<tspan x="10" y="138">  │ ├─┬ has-ansi@2.0.0 </tspan>
+<tspan x="10" y="154">  │ │ └── ansi-regex@2.1.1 </tspan>
+<tspan x="10" y="170">  │ ├── strip-ansi@3.0.1 </tspan>
+<tspan x="10" y="186">  │ └── supports-color@2.0.0 </tspan>
+<tspan x="10" y="202">  ├─┬ connect@3.6.0 </tspan>
+<tspan x="10" y="218">  │ ├── debug@2.6.1 </tspan>
+<tspan x="10" y="234">  │ ├─┬ finalhandler@1.0.0 </tspan>
+<tspan x="10" y="250">  │ │ ├── debug@2.6.1 </tspan>
+<tspan x="10" y="266">  │ │ ├─┬ on-finished@2.3.0 </tspan>
+<tspan x="10" y="282">  │ │ │ └── ee-first@1.1.1 </tspan>
+<tspan x="10" y="298">  │ │ ├── statuses@1.3.1 </tspan>
+<tspan x="10" y="314">  │ │ └── unpipe@1.0.0 </tspan>
+<tspan x="10" y="330">  │ ├── parseurl@1.3.1 </tspan>
+<tspan x="10" y="346">  │ └── utils-merge@1.0.0 </tspan>
+<tspan x="10" y="362">  ├── connect-livereload@0.5.4 </tspan>
+<tspan x="10" y="378">  ├─┬ debug@2.6.3 </tspan>
+<tspan x="10" y="394">  │ └── ms@0.7.2 </tspan>
+<tspan x="10" y="410">  ├── deepmerge@0.2.10 </tspan>
+<tspan x="10" y="426">  ├─┬ event-stream@3.2.2 </tspan>
+<tspan x="10" y="442">  │ ├── duplexer@0.1.1 </tspan>
+<tspan x="10" y="458">  │ ├── from@0.1.7 </tspan>
+<tspan x="10" y="474">  │ ├── map-stream@0.1.0 </tspan>
+<tspan x="10" y="490">  │ ├── pause-stream@0.0.11 </tspan>
+<tspan x="10" y="506">  │ ├── split@0.3.3 </tspan>
+<tspan x="10" y="522">  │ ├── stream-combiner@0.0.4 </tspan>
+<tspan x="10" y="538">  │ └── through@2.3.8 </tspan>
+<tspan x="10" y="554">  ├── q@1.5.0 </tspan>
+<tspan x="10" y="570">  ├─┬ serve-static@1.12.1 </tspan>
+<tspan x="10" y="586">  │ ├── encodeurl@1.0.1 </tspan>
+<tspan x="10" y="602">  │ ├── escape-html@1.0.3 </tspan>
+<tspan x="10" y="618">  │ └─┬ send@0.15.1 </tspan>
+<tspan x="10" y="634">  │   ├── debug@2.6.1 </tspan>
+<tspan x="10" y="650">  │   ├── depd@1.1.0 </tspan>
+<tspan x="10" y="666">  │   ├── destroy@1.0.4 </tspan>
+<tspan x="10" y="682">  │   ├── etag@1.8.0 </tspan>
+<tspan x="10" y="698">  │   ├── fresh@0.5.0 </tspan>
+<tspan x="10" y="714">  │   ├─┬ http-errors@1.6.1 </tspan>
+<tspan x="10" y="730">  │   │ ├── inherits@2.0.3 </tspan>
+<tspan x="10" y="746">  │   │ └── setprototypeof@1.0.3 </tspan>
+<tspan x="10" y="762">  │   ├── mime@1.3.4 </tspan>
+<tspan x="10" y="778">  │   └── range-parser@1.2.0 </tspan>
+<tspan x="10" y="794">  └─┬ tiny-lr@0.0.9 </tspan>
+<tspan x="10" y="810">    ├─┬ body-parser@1.17.1 </tspan>
+<tspan x="10" y="826">    │ ├── bytes@2.4.0 </tspan>
+<tspan x="10" y="842">    │ ├── content-type@1.0.2 </tspan>
+<tspan x="10" y="858">    │ ├── debug@2.6.1 </tspan>
+<tspan x="10" y="874">    │ ├── iconv-lite@0.4.15 </tspan>
+<tspan x="10" y="890">    │ ├── qs@6.4.0 </tspan>
+<tspan x="10" y="906">    │ ├── raw-body@2.2.0 </tspan>
+<tspan x="10" y="922">    │ └─┬ type-is@1.6.15 </tspan>
+<tspan x="10" y="938">    │   ├── media-typer@0.3.0 </tspan>
+<tspan x="10" y="954">    │   └─┬ mime-types@2.1.15 </tspan>
+<tspan x="10" y="970">    │     └── mime-db@1.27.0 </tspan>
+<tspan x="10" y="986">    ├── debug@0.8.1 </tspan>
+<tspan x="10" y="1002">    ├─┬ faye-websocket@0.7.3 </tspan>
+<tspan x="10" y="1018">    │ └─┬ websocket-driver@0.6.5 </tspan>
+<tspan x="10" y="1034">    │   └── websocket-extensions@0.1.1 </tspan>
+<tspan x="10" y="1050">    ├─┬ noptify@0.0.3 </tspan>
+<tspan x="10" y="1066">    │ └─┬ nopt@2.0.0 </tspan>
+<tspan x="10" y="1082">    │   └── abbrev@1.1.0 </tspan>
+<tspan x="10" y="1098">    └── qs@0.6.6</tspan>
 </text>
 </svg>

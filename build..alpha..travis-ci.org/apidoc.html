@@ -63,6 +63,15 @@
 
         <li>
 
+            <a class="apidocElementLiA" href="#apidoc.element.gulp-live-server.gulp-live-server">
+            function <span class="apidocSignatureSpan"></span>gulp-live-server
+            <span class="apidocSignatureSpan">(args, options, livereload)</span>
+            </a>
+
+        </li>
+
+        <li>
+
             <a class="apidocElementLiA" href="#apidoc.element.gulp-live-server.new">
             function <span class="apidocSignatureSpan">gulp-live-server.</span>new
             <span class="apidocSignatureSpan">(script)</span>
@@ -118,6 +127,37 @@
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.gulp-live-server" id="apidoc.module.gulp-live-server">module gulp-live-server</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.gulp-live-server.gulp-live-server" id="apidoc.element.gulp-live-server.gulp-live-server">
+        function <span class="apidocSignatureSpan"></span>gulp-live-server
+        <span class="apidocSignatureSpan">(args, options, livereload)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">gulp-live-server = function (args, options, livereload){
+    var config = {}
+    config.args = util.isArray(args) ? args : [args];
+    //deal with options
+    config.options = merge(defaults.options, options || {});
+    //deal with livereload
+    if (livereload) {
+        config.livereload = (typeof livereload === &#x27;object&#x27; ? livereload : {port: livereload});
+    }else{
+        config.livereload = (livereload === false ? false : defaults.livereload);
+    }
+    // return exports with its state, the server and livereload instance
+    // this allows multiple servers at once
+    return merge({
+      config: config,
+      server: undefined, // the server child process
+      lr: undefined // tiny-lr serverexports;
+    }, exports);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 
     <h2>
