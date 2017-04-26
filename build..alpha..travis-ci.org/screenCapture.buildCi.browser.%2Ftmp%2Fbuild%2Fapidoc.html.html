@@ -379,7 +379,23 @@ server.start();
 
     return deferred.promise;
 }</pre></li>
-    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+before('start server', function (done) {
+    server = gls.static();
+    server.start().then(null, null, function(code){
+        done();
+    }).done();
+});
+after('stop server', function (done) {
+    server.<span class="apidocCodeKeywordSpan">stop</span>().then(function () {
+        done();
+    }).done();
+});
+
+it('should server listening', function (done) {
+    req.get('/').expect(404, done);
+});
+...</pre></li>
     </ul>
 
 
