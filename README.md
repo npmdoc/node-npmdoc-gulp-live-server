@@ -1,6 +1,6 @@
 # npmdoc-gulp-live-server
 
-#### api documentation for  [gulp-live-server (v0.0.30)](https://github.com/gimm/gulp-live-server)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-live-server.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-live-server) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-live-server.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-live-server)
+#### basic api documentation for  [gulp-live-server (v0.0.30)](https://github.com/gimm/gulp-live-server)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-live-server.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-live-server) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-live-server.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-live-server)
 
 #### easy light weight server with livereload
 
@@ -77,7 +77,8 @@
     "scripts": {
         "test": "mocha"
     },
-    "version": "0.0.30"
+    "version": "0.0.30",
+    "bin": {}
 }
 ```
 
